@@ -1,7 +1,15 @@
 {
 	"require": {
 		"laravel/framework": "4.0.*",
-        "barryvdh/laravel-ide-helper": "dev-master"
+        "barryvdh/laravel-ide-helper": "dev-master",
+        "witooh/tag-builder": "dev-master",
+        "witooh/custom-blade": "dev-master",
+        "witooh/menu-builder": "dev-master",
+        "witooh/validators": "dev-master",
+        "witooh/permission": "dev-master",
+        "witooh/basic-message": "dev-master",
+        "witooh/authenticate": "dev-master",
+        "jasonlewis/expressive-date": "1.*"
 	},
 	"autoload": {
 		"classmap": [
@@ -11,7 +19,8 @@
 			"app/database/migrations",
 			"app/database/seeds",
 			"app/tests/TestCase.php",
-            "app/domains"
+            "app/domains",
+            "app/services"
 		]
 	},
 	"scripts": {
