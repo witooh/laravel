@@ -16,9 +16,12 @@
 # http://code.google.com/p/html5security/wiki/CrossOriginRequestSecurity
 # http://enable-cors.org/
 
-# <IfModule mod_headers.c>
-#    Header set Access-Control-Allow-Origin "*"
-# </IfModule>
+<IfModule mod_headers.c>
+    #Header set Access-Control-Allow-Origin "*"
+    #Header set Access-Control-Allow-Headers "Authorization"
+    #Header set Access-Control-Allow-Methods "POST, GET, OPTIONS, PUT, DELETE"
+    #Header set WWW-Authenticate "Basic"
+</IfModule>
 
 # ------------------------------------------------------------------------------
 # | CORS-enabled images                                                        |

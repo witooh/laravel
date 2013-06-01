@@ -52,5 +52,20 @@
         <li><a href="http://forums.laravel.com">Laravel Forums</a></li>
         <li><a href="http://github.com/laravel/laravel">GitHub Repository</a></li>
     </ul>
+    
+    <script type="text/javascript" src="/public/app/lib/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript">
+        $.ajaxSetup({
+            beforeSend: function (xhr){
+                xhr.setRequestHeader("Authorization", "Basic " + btoa('witoo@outlook.com:VkgiupoF9'));
+            }
+        });
+        $.ajax({
+            url: 'http://localhost/laravel-boilerplate/public/auth',
+            success: function(data){
+                console.log(data);
+            }
+        });
+    </script>
 </body>
 </html>
