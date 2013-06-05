@@ -115,6 +115,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
         //3rd Party Service Providers
+        'Witooh\Validators\ValidatorsServiceProvider',
         'Domains\DomainServiceProvider',
 	),
 
@@ -179,6 +180,7 @@ return array(
 		'Str'             => 'Illuminate\Support\Str',
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
+		'Validators'      => 'Witooh\Validators\Facades\Validators',
 		'View'            => 'Illuminate\Support\Facades\View',
 
 	),
