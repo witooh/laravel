@@ -11,6 +11,8 @@
 |
 */
 
+require(__dir__.'/events.php');
+
 App::before(function($request)
 {
 	//
