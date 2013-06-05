@@ -39,7 +39,7 @@ return array(
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'Asia/Bangkok',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => 'toTl4mi1esZG4X4M9KVDr0b7pB4rYa8Q',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -114,6 +114,8 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+        //3rd Party Service Providers
+        'Domains\DomainServiceProvider',
 	),
 
 	/*
