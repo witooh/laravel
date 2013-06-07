@@ -25,7 +25,9 @@
 			"app/database/seeds",
 			"app/tests/TestCase.php",
             "app/domains",
-            "app/services"
+            "app/validators",
+            "app/events",
+            "app/repositories"
 		]
 	},
 	"scripts": {
