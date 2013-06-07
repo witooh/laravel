@@ -117,6 +117,7 @@ return array(
         //3rd Party Service Providers
         'Witooh\Validators\ValidatorsServiceProvider',
         'Domains\DomainServiceProvider',
+        //'Atrauzzi\LaravelDoctrine\LaravelDoctrineServiceProvider',
 	),
 
 	/*
@@ -182,6 +183,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'Validators'      => 'Witooh\Validators\Facades\Validators',
 		'View'            => 'Illuminate\Support\Facades\View',
+        'Doctrine'        => 'Atrauzzi\LaravelDoctrine\Support\Facades\Doctrine',
 
 	),
 

@@ -12,7 +12,9 @@
         "witooh/permission": "dev-master",
         "witooh/basic-message": "dev-master",
         "witooh/authenticate": "dev-master",
-        "jasonlewis/expressive-date": "1.*"
+        "jasonlewis/expressive-date": "1.*",
+        "mockery/mockery": "dev-master",
+        "atrauzzi/laravel-doctrine": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
