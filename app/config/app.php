@@ -117,7 +117,8 @@ return array(
         //3rd Party Service Providers
         'Witooh\Validators\ValidatorsServiceProvider',
         'Domains\DomainServiceProvider',
-        //'Atrauzzi\LaravelDoctrine\LaravelDoctrineServiceProvider',
+        'Witooh\BasicMessage\BasicMessageServiceProvider',
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
 	),
 
 	/*
@@ -181,9 +182,9 @@ return array(
 		'Str'             => 'Illuminate\Support\Str',
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
-		'Validators'      => 'Witooh\Validators\Facades\Validators',
 		'View'            => 'Illuminate\Support\Facades\View',
-        'Doctrine'        => 'Atrauzzi\LaravelDoctrine\Support\Facades\Doctrine',
+        'JsonResponse'    => 'Witooh\BasicMessage\Facade\JsonResponse',
+        'Validators'      => 'Witooh\Validators\Facades\Validators',
 
 	),
 

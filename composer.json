@@ -14,7 +14,7 @@
         "witooh/authenticate": "dev-master",
         "jasonlewis/expressive-date": "1.*",
         "mockery/mockery": "dev-master",
-        "atrauzzi/laravel-doctrine": "dev-master"
+        "witooh/cms": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
