@@ -1,9 +1,10 @@
 <?php
 
-namespace Domains;
+namespace App;
+
 use Illuminate\Support\ServiceProvider;
 
-class DomainServiceProvider extends ServiceProvider {
+class AppServiceProvider extends ServiceProvider {
 
     /**
      * Indicates if loading of the provider is deferred.
@@ -19,6 +20,14 @@ class DomainServiceProvider extends ServiceProvider {
      */
     public function register()
     {
+        $this->repository();
+    }
+
+    public function repository(){
+
+    }
+
+    public function service(){
 
     }
 
