@@ -9,9 +9,11 @@
         "witooh/permission": "dev-master",
         "witooh/message": "dev-master",
         "witooh/grid-dataprovider": "dev-master",
-        "jasonlewis/expressive-date": "1.*",
-        "mockery/mockery": "dev-master"
+        "jasonlewis/expressive-date": "1.*"
 	},
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
 	"autoload": {
 		"classmap": [
 			"app/commands",
