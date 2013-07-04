@@ -115,11 +115,10 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
         //3rd Party Service Providers
-        'App\AppServiceProvider',
-        'Witooh\Validators\ValidatorsServiceProvider',
-        'Witooh\BasicMessage\BasicMessageServiceProvider',
-        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
-        'Witooh\GridDataprovider\GridDataproviderServiceProvider',
+//        'Witooh\Validators\ValidatorsServiceProvider',
+//        'Witooh\Message\MessageServiceProvider',
+//        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+//        'Witooh\GridDataprovider\GridDataproviderServiceProvider',
 
 	),
 
@@ -185,10 +184,8 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-        'JsonResponse'    => 'Witooh\BasicMessage\Facade\JsonResponse',
-        'Validators'      => 'Witooh\Validators\Facades\Validators',
-        'Doctrine'        => 'Atrauzzi\LaravelDoctrine\Support\Facades\Doctrine',
-        'JqGrid'          => 'Witooh\GridDataprovider\Facades\JqGrid',
+//        'Validators'      => 'Witooh\Validators\Facades\Validators',
+//        'JqGrid'          => 'Witooh\GridDataprovider\Facades\JqGrid',
 
 	),
 

@@ -3,12 +3,11 @@
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
 	"require": {
-		"laravel/framework": "4.1.*",
+		"laravel/framework": "4.0.*",
         "barryvdh/laravel-ide-helper": "dev-master",
         "witooh/validators": "dev-master",
         "witooh/permission": "dev-master",
         "witooh/message": "dev-master",
-        "witooh/authenticate": "dev-master",
         "witooh/grid-dataprovider": "dev-master",
         "jasonlewis/expressive-date": "1.*",
         "mockery/mockery": "dev-master"
@@ -21,11 +20,7 @@
 			"app/database/migrations",
 			"app/database/seeds",
 			"app/tests/TestCase.php",
-            "app/validators",
-            "app/events",
-            "app/services",
-            "app/repositories",
-            "app/AppServiceProvider.php"
+            "app/events"
 		]
 	},
 	"scripts": {
