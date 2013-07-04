@@ -24,15 +24,19 @@
 		]
 	},
 	"scripts": {
-		"pre-update-cmd": [
+        "post-install-cmd": [
+            "php artisan optimize"
+        ],
+        "pre-update-cmd": [
 			"php artisan clear-compiled"
-		],
-		"post-install-cmd": [
-			"php artisan optimize"
 		],
 		"post-update-cmd": [
 			"php artisan optimize"
-		]
+		],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ]
+
 	},
 	"config": {
 		"preferred-install": "dist"
