@@ -9,7 +9,9 @@
         "witooh/permission": "dev-master",
         "witooh/message": "dev-master",
         "witooh/grid-dataprovider": "dev-master",
-        "jasonlewis/expressive-date": "1.*"
+        "jasonlewis/expressive-date": "1.*",
+        "illuminate/remote": "dev-master",
+        "anahkiasen/rocketeer": "dev-master"
 	},
     "require-dev": {
         "mockery/mockery": "dev-master"
@@ -22,7 +24,8 @@
 			"app/database/migrations",
 			"app/database/seeds",
 			"app/tests/TestCase.php",
-            "app/events"
+            "app/events",
+            "vendor/illuminate/remote"
 		]
 	},
 	"scripts": {

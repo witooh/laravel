@@ -115,6 +115,8 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
         //3rd Party Service Providers
+        'Illuminate\Remote\RemoteServiceProvider',
+        'Rocketeer\RocketeerServiceProvider',
         'Witooh\Validators\ValidatorsServiceProvider',
         'Witooh\Message\MessageServiceProvider',
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
@@ -184,6 +186,7 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+        'Rocketeer'       => 'Rocketeer\Facades\Rocketeer',
         'Validators'      => 'Witooh\Validators\Facades\Validators',
         'JqGrid'          => 'Witooh\GridDataprovider\Facades\JqGrid',
 
