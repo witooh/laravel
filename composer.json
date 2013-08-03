@@ -4,17 +4,17 @@
     "keywords": ["framework", "laravel"],
 	"require": {
 		"laravel/framework": "4.0.*",
-        "barryvdh/laravel-ide-helper": "dev-master",
         "witooh/validators": "dev-master",
         "witooh/permission": "dev-master",
         "witooh/message": "dev-master",
         "witooh/grid-dataprovider": "dev-master",
         "jasonlewis/expressive-date": "1.*",
-        "illuminate/remote": "dev-master",
-        "anahkiasen/rocketeer": "dev-master"
+        "illuminate/remote": "dev-master"
 	},
     "require-dev": {
-        "mockery/mockery": "dev-master"
+        "mockery/mockery": "dev-master",
+        "anahkiasen/rocketeer": "dev-master",
+        "barryvdh/laravel-ide-helper": "dev-master"
     },
 	"autoload": {
 		"classmap": [
@@ -28,21 +28,20 @@
             "vendor/illuminate/remote"
 		]
 	},
-	"scripts": {
+    "scripts": {
         "post-install-cmd": [
             "php artisan optimize"
         ],
         "pre-update-cmd": [
-			"php artisan clear-compiled"
-		],
-		"post-update-cmd": [
-			"php artisan optimize"
-		],
+            "php artisan clear-compiled"
+        ],
+        "post-update-cmd": [
+            "php artisan optimize"
+        ],
         "post-create-project-cmd": [
             "php artisan key:generate"
         ]
-
-	},
+    },
 	"config": {
 		"preferred-install": "dist"
 	},
